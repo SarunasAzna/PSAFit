@@ -1,0 +1,188 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	Python
+<windows>	2
+<table>
+fitWizard	35	6	2015-01-10 23:29
+geometry	-17	3	668	899	active
+header	parameter[X]	value[Y]	vary[Y]	min[Y]	max[Y]	global[Y]
+ColWidth	100	116	100	100	100	100	
+<com>
+</com>
+ColType	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel		2
+<data>
+0	DuG	10000	1			
+1	DuV	-40	1			
+2	DuBeta	0				
+5	Kbn	1000	1	1	1000000000000	
+6	DbnV	-3	1			
+7	DbnBeta	0				
+10	Kbu	1000				
+11	DbuV	200				
+12	DbuBeta	0.0001				
+15	Mt	1e-05				
+16	T	310				
+17	Pr	0.103125				
+18	R	8.3144621				
+21	xa	1				
+22	xb	10000				
+23	errTol	1e-09				
+24	max_iter	500				
+25	xtol	1e-09				
+</data>
+</table>
+<table>
+Example	29	8	2015-03-11 15:10:54
+geometry	650	4	471	666	
+header	Lt[X]	Kbn=1000[Y]	Kbn=1e+05[Y]	Kbn=1e+08[Y]	5[Y]	initPar[Y]	value[Y]	8[Y]
+ColWidth	100	100	100	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	1;0/13	1;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0
+Comments									
+WindowLabel		2
+<data>
+0	1e-07	343.1404600398	343.4239756739	344.2556543955		Pr	0.103125	
+1	2.782559402207e-07	343.1473482851	343.9342448242	346.3015972711		xa	0.1	
+2	7.742636826811e-07	343.1665093894	345.3305303909	352.3688268108		xb	10000	
+3	2.154434690032e-06	343.2197810799	349.080394533	373.3059154876		max_iter	5000	
+4	5.994842503189e-06	343.3676637871	358.4918514706	527.2980075927		DbnBeta	0.01	
+5	1.6681005372e-05	343.7764798489	378.4807119439	607.8242214584		Mt	1e-05	
+6	4.641588833613e-05	344.8938423419	410.120635589	647.5184237842		R	8.3144621	
+7	0.0001291549665015	347.8571482507	447.8111043177	680.3975256848		T	310	
+8	0.0003593813663805	355.1578366678	486.4681237369	710.6002528046		xtol	1e-09	
+9	0.001	370.6105815646	524.0595371804	739.2929205578		Kbn	100000000	
+10						DuBeta	-0.1	
+11						DuG	10000	
+12						errTol	1e-09	
+13						Lt_min	1e-07	
+14						DuV	-12	
+15						Lt_range	10	
+16						Lt_max	0.001	
+17						DbnV	1	
+19					varied parameter	Kbn		
+20					date/time	2015-03-11 15:10:54		
+</data>
+</table>
+<open>1</open>
+<log>
+N-model fit started 
+ Date: 2015-03-11 14:30:23Input table name: ExampleOutput table name: TfitParamN_1Fit result table name: TfitResN_1Fit result graph name: GfitN_1function: LtUpperRsquare_1: 1.54065751854[[Variables]]
+    DbnBeta_1:    0.27080093 +/- 0.573470 (211.77%) (init= 0)
+    DbnV_1:      -0.64945636 +/- 163.4939 (25173.98%) (init=-3)
+    DbuBeta_1:    0.0001 (fixed)
+    DbuV_1:       200 (fixed)
+    DuBeta_1:     0 (fixed)
+    DuG_1:        10000 (fixed)
+    DuV_1:       -40 (fixed)
+    Kbn_1:        0.1 (fixed)
+    Kbu_1:        1000 (fixed)
+    Mt_1:         1e-05 (fixed)
+    Pr_1:         0.103125 (fixed)
+    R_1:          8.314462 (fixed)
+    Rsquare_1:    1.54065751 (init= 1.540658)
+    T_1:          310 (fixed)
+    errTol_1:     1e-09 (fixed)
+    max_iter_1:   500 (fixed)
+    xa_1:         1 (fixed)
+    xb_1:         10000 (fixed)
+    xtol_1:       1e-09 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)N-model fit started 
+ N-model fit started 
+ Date: 2015-03-11 14:32:35Input table name: ExampleOutput table name: TfitParamN_1Fit result table name: TfitResN_1Fit result graph name: GfitN_1function: LtUpperRsquare_1: 2.80961033606[[Variables]]
+    DbnBeta_1:    0 (fixed)
+    DbnV_1:       121.125159 +/- 6.39e+03 (5279.13%) (init=-3)
+    DbuBeta_1:    0.0001 (fixed)
+    DbuV_1:       200 (fixed)
+    DuBeta_1:     0 (fixed)
+    DuG_1:        2233.23590 +/- 4.91e+06 (219879.09%) (init= 10000)
+    DuV_1:       -4.98877242 +/- 1.10e+04 (219864.08%) (init=-40)
+    Kbn_1:        1.00305311 +/- 937.0727 (93422.05%) (init= 1000)
+    Kbu_1:        1000 (fixed)
+    Mt_1:         1e-05 (fixed)
+    Pr_1:         0.103125 (fixed)
+    R_1:          8.314462 (fixed)
+    Rsquare_1:    2.80961033 (init= 2.80961)
+    T_1:          310 (fixed)
+    errTol_1:     1e-09 (fixed)
+    max_iter_1:   500 (fixed)
+    xa_1:         1 (fixed)
+    xb_1:         10000 (fixed)
+    xtol_1:       1e-09 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DbnV_1, DuV_1)             =  0.999 
+    C(DuG_1, Kbn_1)              =  0.997 
+StartN-model fit started 
+ 
+Date: 2015-03-11 17:39:35
+Input table name: Example
+Output table name: TfitParamN_1
+Fit result table name: TfitResN_1
+Fit result graph name: GfitN_1
+function: LtUpper
+Rsquare_1: 0.427429218754
+Rsquare_2: 0.336061587486
+[[Variables]]
+    DbnBeta_1:   0 (fixed)
+    DbnBeta_2:   0 (fixed)
+    DbnV_1:     -3 (fixed)
+    DbnV_2:     -3 (fixed)
+    DuBeta_1:    0 (fixed)
+    DuBeta_2:    0 (fixed)
+    DuG_1:       1 (fixed)
+    DuG_2:       1 (fixed)
+    DuV_1:      -40 (fixed)
+    DuV_2:      -40 (fixed)
+    Kbn_1:       1.0000e+12 +/- 0        (0.00%) (init= 1e+12)
+    Kbn_2:       1.0000e+12 +/- 0        (0.00%) (init= 1e+12)
+    Mt_1:        1e-05 (fixed)
+    Mt_2:        1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+Time: 0.771s 
+ Fit time: 0.171s 
+Data initiating time: 0.005s 
+Results displaying time: 0.595s 
+------------------------------------------------------------------------ 
+N-model fit started 
+ 
+Date: 2015-03-11 17:40:50
+Input table name: Example
+Output table name: TfitParamN_2
+Fit result table name: TfitResN_2
+Fit result graph name: GfitN_2
+function: LtUpper
+Rsquare_1: 1.00000001591
+Rsquare_2: 1.00002724964
+[[Variables]]
+    DbnBeta_1:   0 (fixed)
+    DbnBeta_2:   0 (fixed)
+    DbnV_1:      4.03350673 +/- 303.8367 (7532.82%) (init=-3)
+    DbnV_2:     -6.57849630 +/- 2.636738 (40.08%) (init=-3)
+    DuBeta_1:    0 (fixed)
+    DuBeta_2:    0 (fixed)
+    DuG_1:       18554.2935 +/- 1.85e+05 (998.77%) (init= 10000)
+    DuG_2:       25680.0693 +/- 1.05e+03 (4.08%) (init= 10000)
+    DuV_1:      -54.0889999 +/- 540.2146 (998.75%) (init=-40)
+    DuV_2:      -74.8128621 +/- 3.030166 (4.05%) (init=-40)
+    Kbn_1:       1395.77535 +/- 4.26e+04 (3053.60%) (init= 1000)
+    Kbn_2:       50306.1940 +/- 1.65e+04 (32.87%) (init= 1000)
+    Mt_1:        1e-05 (fixed)
+    Mt_2:        1e-05 (fixed)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DbnV_1, Kbn_1)             =  1.000 
+    C(DbnV_1, DuV_1)             =  1.000 
+    C(DuV_1, Kbn_1)              =  1.000 
+    C(DbnV_2, Kbn_2)             =  0.999 
+    C(DbnV_2, DuV_2)             =  0.997 
+    C(DuV_2, Kbn_2)              =  0.992 
+Time: 31.83s 
+ Fit time: 31.08s 
+Data initiating time: 0.006s 
+Results displaying time: 0.745s 
+------------------------------------------------------------------------ 
+</log>

@@ -1,0 +1,98 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	Python
+<windows>	3
+<table>
+initParams	52	4	2014-03-17 12:54
+geometry	0	0	686	829	
+header	Param	Value[Y]	UNIT[L]	note[Y]
+ColWidth	100	145	141	229	
+<com>
+</com>
+ColType	1;0/13	0;0/13	1;0/13	1;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments	Parameters	Value	Unit		
+WindowLabel	Initial parameters for curves generator	2
+<data>
+0	xa	0.1	Mpa	
+1	xb	10000	Mpa	
+2	Pr	0.103125	MPa	
+3	R	8.3144621	J K^−1 mol^−1	
+4	T	310	K	
+5	Mt	1e-05	M	
+7	Kbn	1000000	M^-1	
+8	Kbu	1e-06	M^-1	
+10	DuG	10000	J/mol	
+12	DuV	-12	cm^3/mol	
+13	DbnV	1	cm^3/mol	
+14	DbuV	0	cm^3/mol	
+16	DuBeta	-0.1	cm^6*J^-1*mol^-1	
+17	DbnBeta	0.01	cm^6*J^-1*mol^-1	
+18	DbuBeta	0	cm^6*J^-1*mol^-1	
+20	errTol	1e-09		
+21	max_iter	5000		
+22	xtol	1e-09		
+23	Lt_min	1e-07		
+24	Lt_max	1		
+25	Lt_range	200		
+</data>
+</table>
+<table>
+SimParam	20	9	2014-04-07 00:54
+geometry	652	462	1245	264	
+header	DuG[X]	Kbn[Y]	Kbu[Y]	DuV[Y]	DbnV[Y]	DbuV[Y]	DuBeta[Y]	DbnBeta[Y]	DbuBeta[Y]
+ColWidth	120	105	100	193	100	100	100	100	100	
+<com>
+<col nr="3">
+-0.11-i*0.001
+</col>
+<col nr="5">
+i
+</col>
+</com>
+ColType	0;0/13	0;0/6	0;2/0	0;0/13	0;0/6	0;0/6	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0
+Comments										
+WindowLabel		2
+<data>
+0	1000	1000	10000000	-200	-200	-200	-1	-0.1	-1.1
+1	10000	100000	100000000	-12	1	1	-0.1	0.01	-1.15
+2	20000	100000000	1000000000	0	200	200	1	0.1	-1.17
+3			10000000000						
+</data>
+</table>
+<table>
+fitWizard	22	6	2015-01-10 23:29
+geometry	681	0	663	534	active
+header	parameter	value	vary	min	max	global
+ColWidth	100	116	100	100	100	100	
+<com>
+</com>
+ColType	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel		2
+<data>
+0	xa	1				
+1	xb	10000				
+2	errTol	1e-09				
+3	max_iter	500				
+4	xtol	1e-09				
+5	Pr	0.103125				
+6	R	8.3144621				
+7	T	310				
+8	Mt	1e-05				
+11	Kbn	100000	1	1	10000000000000	
+12	Kbu	0.0001				
+13	DuG	10000				
+14	DuV	-40	1			1
+15	DbnV	1				
+16	DbuV	0				
+17	DuBeta	-0.1				
+18	DbnBeta	0.01				
+19	DbuBeta	0				
+</data>
+</table>
+<open>0</open>

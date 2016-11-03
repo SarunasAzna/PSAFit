@@ -1,0 +1,852 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	Python
+<windows>	2
+<table>
+fitWizard	30	5	2015-02-23 16:24
+geometry	0	0	548	725	active
+header	Parameter[X]	value[Y]	vary[Y]	min[Y]	max[Y]
+ColWidth	100	100	100	100	100	
+<com>
+</com>
+ColType	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments						
+WindowLabel		2
+<data>
+0	DuG	9000	1		
+1	DuV	-1	1	-100	0
+2	DuBeta	-0.1	1		
+3	DuAlpha	0.7	1		
+4	DuCp	6800			
+5	DuH	70500			
+8	Pr	0.1			
+9	T	298			
+</data>
+</table>
+<table>
+permExample	87	2	2015-02-23 16:34
+geometry	549	3	445	220	
+header	T[X]	P[Y]
+ColWidth	100	230	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	245	-177.1375915081
+1	246	-164.358683675
+2	247	-151.6998394078
+3	248	-139.1601243433
+4	249	-126.7386723882
+5	250	-114.4346847768
+6	251	-102.2474293049
+7	252	-90.1762397388
+8	253	-78.2205153959
+9	254	-66.379720898
+10	255	-54.6533860966
+11	256	-43.0411061722
+12	257	-31.5425419102
+13	258	-20.1574201571
+14	259	-8.8855344624
+15	260	2.2732540877
+16	261	13.319015838
+17	262	24.2517513225
+18	263	35.0713898044
+19	264	45.7777875832
+20	265	56.3707260577
+21	266	66.8499095246
+22	267	77.2149626977
+23	268	87.4654279236
+24	269	97.6007620704
+25	270	107.6203330628
+26	271	117.5234160307
+27	272	127.3091890362
+28	273	136.9767283388
+29	274	146.525003153
+30	275	155.9528698449
+31	276	165.2590655087
+32	277	174.4422008553
+33	278	183.5007523338
+34	279	192.4330533974
+35	280	201.23728481
+36	281	209.9114638757
+37	282	218.4534324525
+38	283	226.8608435938
+39	284	235.13114663
+40	285	243.2615704766
+41	286	251.2491049153
+42	287	259.090479552
+43	288	266.7821401001
+44	289	274.3202215761
+45	290	281.7005179112
+46	291	288.9184473891
+47	292	295.9690132
+48	293	302.8467582501
+49	294	309.5457131862
+50	295	316.0593363558
+51	296	322.3804441357
+52	297	328.5011296805
+53	298	334.412667664
+54	299	340.1054019569
+55	300	345.5686123634
+56	301	350.7903554535
+57	302	355.7572730702
+58	303	360.4543601253
+59	304	364.8646805891
+60	305	368.969016825
+61	306	372.7454321037
+62	307	376.1687185019
+63	308	379.2096912084
+64	309	381.8342735605
+65	310	384.0022915661
+66	311	385.6658565297
+67	312	386.7671494627
+68	313	387.2353123016
+69	314	386.9819618611
+70	315	385.8944979362
+71	316	383.8257141145
+72	317	380.5768574995
+73	318	375.8682448038
+74	319	369.2840171932
+75	320	360.1561904814
+76	321	347.2787315917
+77	322	327.9870807216
+78	323	292.7914079509
+79	322.5	132.3906899429
+80	322	104.2129192784
+81	321	56.9212684083
+82	320	16.0438095186
+83	319	-21.0840171932
+84	318	-55.6682448037
+85	317	-88.3768574995
+86	316	-119.6257141145
+</data>
+</table>
+<open>1</open>
+<log>
+StartFit started 
+  
+Date: 2015-03-11 17:57:28
+Input table name: permExample
+Output table name: TfitParElip_1
+Fit result table name: TfitResElip_1
+Fit result graph name: GfitElip_1
+function: ellipsoidPmTm
+Rsquare_1: 1.07375165409
+[[Variables]]
+    DuAlpha_1:   1.40000000 +/- 3.06e-14 (0.00%) (init= 1)
+    DuBeta_1:   -0.10000000 +/- 8.96e-15 (0.00%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9600       +/- 1.54e-10 (0.00%) (init= 5000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -12         +/- 1.61e-12 (0.00%) (init=-5)
+    eplips_1:    0.32187919 +/- 2.07e-13 (0.00%) (init= 2)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuV_1, eplips_1)           =  0.922 
+Time: 0.79s 
+ Fit time: 0.401s 
+Data initiating time: 0.017s 
+Results displaying time: 0.372s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+ Fit started 
+  
+Date: 2015-03-11 17:58:19
+Input table name: permExample
+Output table name: TfitParElip_2
+Fit result table name: TfitResElip_3
+Fit result graph name: GfitElip_2
+function: ellipsoidPmTm
+Rsquare_1: 1.02725158516
+[[Variables]]
+    DuAlpha_1:   0.88971592 +/- 0.057254 (6.44%)  == 'sqrt(-eplips_1  - DuBeta_1/298.0*DuCp_1)'
+    DuBeta_1:   -0.1 (fixed)
+    DuCp_1:      6800 (fixed)
+    DuG_1:       5964.10917 +/- 385.8233 (6.47%) (init= 5000)
+    DuH_1:       70500 (fixed)
+    DuV_1:       1.07025828 +/- 1.180448 (110.30%) (init=-5)
+    eplips_1:    1.49028477 +/- 0.101879 (6.84%) (init= 2)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuG_1, eplips_1)           =  0.774 
+Time: 1.068s 
+ Fit time: 0.615s 
+Data initiating time: 0.02s 
+Results displaying time: 0.433s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 17:59:15
+Input table name: permExample
+Output table name: TfitParElip_3
+Fit result table name: TfitResElip_4
+Fit result graph name: GfitElip_3
+function: ellipsoidPmTm
+Rsquare_1: 1.07375165409
+[[Variables]]
+    DuAlpha_1:   1.40000000 +/- 3.06e-14 (0.00%) (init= 1)
+    DuBeta_1:   -0.10000000 +/- 8.96e-15 (0.00%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9600       +/- 1.54e-10 (0.00%) (init= 5000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -12         +/- 1.61e-12 (0.00%) (init=-5)
+    eplips_1:    0.32187919 +/- 2.07e-13 (0.00%) (init= 2)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuV_1, eplips_1)           =  0.922 
+Time: 0.977s 
+ Fit time: 0.392s 
+Data initiating time: 0.019s 
+Results displaying time: 0.566s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:00:00
+Input table name: permExample
+Output table name: TfitParElip_4
+Fit result table name: TfitResElip_5
+Fit result graph name: GfitElip_4
+function: ellipsoidPmTm
+Rsquare_1: 1.02725158516
+[[Variables]]
+    DuAlpha_1:   0.88971592 +/- 0.057254 (6.44%)  == 'sqrt(-eplips_1  - DuBeta_1/298.0*DuCp_1)'
+    DuBeta_1:   -0.1 (fixed)
+    DuCp_1:      6800 (fixed)
+    DuG_1:       5964.10917 +/- 385.8233 (6.47%) (init= 5000)
+    DuH_1:       70500 (fixed)
+    DuV_1:       1.07025828 +/- 1.180448 (110.30%) (init=-5)
+    eplips_1:    1.49028477 +/- 0.101879 (6.84%) (init= 2)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuG_1, eplips_1)           =  0.774 
+Time: 1.334s 
+ Fit time: 0.676s 
+Data initiating time: 0.018s 
+Results displaying time: 0.64s 
+--------------------------------------------------------------------------------------------------------------------  
+
+StartFit started 
+  
+Date: 2015-03-11 18:01:25
+Input table name: permExample
+Output table name: TfitParElip_1
+Fit result table name: TfitResElip_1
+Fit result graph name: GfitElip_1
+function: ellipsoidPmTm
+Rsquare_1: 1.07375165409
+[[Variables]]
+    DuAlpha_1:   1.40000000 +/- 3.10e-14 (0.00%) (init= 1.4)
+    DuBeta_1:   -0.1 (fixed)
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9600       +/- 1.57e-10 (0.00%) (init= 5000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -12         +/- 7.62e-13 (0.00%) (init=-5)
+[[Correlations]] (unreported correlations are <  0.100)
+Time: 0.732s 
+ Fit time: 0.213s 
+Data initiating time: 0.023s 
+Results displaying time: 0.496s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:01:54
+Input table name: permExample
+Output table name: TfitParElip_2
+Fit result table name: TfitResElip_2
+Fit result graph name: GfitElip_2
+function: ellipsoidPmTm
+Rsquare_1: 1.07375165409
+[[Variables]]
+    DuAlpha_1:   1.40000000 +/- 3.10e-14 (0.00%) (init= 1.4)
+    DuBeta_1:   -0.1 (fixed)
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9600       +/- 1.57e-10 (0.00%) (init= 5000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -12         +/- 7.62e-13 (0.00%) (init=-5)
+[[Correlations]] (unreported correlations are <  0.100)
+Time: 0.846s 
+ Fit time: 0.217s 
+Data initiating time: 0.018s 
+Results displaying time: 0.611s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:04:16
+Input table name: permExample
+Output table name: TfitParElip_3
+Fit result table name: TfitResElip_3
+Fit result graph name: GfitElip_3
+function: ellipsoidPmTm
+Rsquare_1: 1.07375165409
+[[Variables]]
+    DuAlpha_1:   1.40000000 +/- 3.10e-14 (0.00%) (init= 5)
+    DuBeta_1:   -0.1 (fixed)
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9600       +/- 1.57e-10 (0.00%) (init= 5000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -12         +/- 7.63e-13 (0.00%) (init=-5)
+[[Correlations]] (unreported correlations are <  0.100)
+Time: 0.86s 
+ Fit time: 0.178s 
+Data initiating time: 0.018s 
+Results displaying time: 0.664s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:04:22
+Input table name: permExample
+Output table name: TfitParElip_4
+Fit result table name: TfitResElip_4
+Fit result graph name: GfitElip_4
+function: ellipsoidPmTm
+Rsquare_1: 1.07375165409
+[[Variables]]
+    DuAlpha_1:   1.40000000 +/- 3.10e-14 (0.00%) (init= 9)
+    DuBeta_1:   -0.1 (fixed)
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9600       +/- 1.57e-10 (0.00%) (init= 5000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -12         +/- 7.62e-13 (0.00%) (init=-5)
+[[Correlations]] (unreported correlations are <  0.100)
+Time: 0.971s 
+ Fit time: 0.226s 
+Data initiating time: 0.018s 
+Results displaying time: 0.727s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:04:34
+Input table name: permExample
+Output table name: TfitParElip_5
+Fit result table name: TfitResElip_5
+Fit result graph name: GfitElip_5
+function: ellipsoidPmTm
+Rsquare_1: 1.2420326346
+[[Variables]]
+    DuAlpha_1:   1.72218730 +/- 0.110352 (6.41%) (init= 9)
+    DuBeta_1:   -0.28130332 +/- 0.033422 (11.88%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9472.69751 +/- 303.2794 (3.20%) (init= 5000)
+    DuH_1:       70500 (fixed)
+    DuV_1:       15.7853807 +/- 4.187549 (26.53%) (init=-5)
+    eplips_1:    3.45307286 +/- 0.441129 (12.77%) (init= 2)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuAlpha_1, DuV_1)          =  0.907 
+    C(DuV_1, eplips_1)           =  0.902 
+    C(DuAlpha_1, eplips_1)       =  0.723 
+    C(DuG_1, eplips_1)           =  0.656 
+    C(DuG_1, DuV_1)              =  0.429 
+    C(DuAlpha_1, DuG_1)          =  0.333 
+Time: 1.701s 
+ Fit time: 0.961s 
+Data initiating time: 0.019s 
+Results displaying time: 0.721s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:05:02
+Input table name: permExample
+Output table name: TfitParElip_1
+Fit result table name: TfitResElip_1
+Fit result graph name: GfitElip_1
+function: ellipsoidPmTm
+Rsquare_1: 1.2420326346
+[[Variables]]
+    DuAlpha_1:   1.72218730 +/- 0.110352 (6.41%) (init= 9)
+    DuBeta_1:   -0.28130332 +/- 0.033422 (11.88%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9472.69751 +/- 303.2794 (3.20%) (init= 5000)
+    DuH_1:       70500 (fixed)
+    DuV_1:       15.7853807 +/- 4.187549 (26.53%) (init=-5)
+    eplips_1:    3.45307286 +/- 0.441129 (12.77%) (init= 2)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuAlpha_1, DuV_1)          =  0.907 
+    C(DuV_1, eplips_1)           =  0.902 
+    C(DuAlpha_1, eplips_1)       =  0.723 
+    C(DuG_1, eplips_1)           =  0.656 
+    C(DuG_1, DuV_1)              =  0.429 
+    C(DuAlpha_1, DuG_1)          =  0.333 
+Time: 1.546s 
+ Fit time: 0.969s 
+Data initiating time: 0.019s 
+Results displaying time: 0.558s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:05:17
+Input table name: permExample
+Output table name: TfitParElip_2
+Fit result table name: TfitResElip_2
+Fit result graph name: GfitElip_2
+function: ellipsoidPmTm
+Rsquare_1: 1.07375165409
+[[Variables]]
+    DuAlpha_1:   1.40000000 +/- 3.06e-14 (0.00%) (init= 1)
+    DuBeta_1:   -0.10000000 +/- 8.96e-15 (0.00%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9600       +/- 1.54e-10 (0.00%) (init= 5000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -12         +/- 1.61e-12 (0.00%) (init=-5)
+    eplips_1:    0.32187919 +/- 2.07e-13 (0.00%) (init= 2)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuV_1, eplips_1)           =  0.922 
+Time: 1.117s 
+ Fit time: 0.407s 
+Data initiating time: 0.019s 
+Results displaying time: 0.691s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:05:43
+Input table name: permExample
+Output table name: TfitParElip_1
+Fit result table name: TfitResElip_1
+Fit result graph name: GfitElip_1
+function: ellipsoidPmTm
+Rsquare_1: 1.12341767023
+[[Variables]]
+    DuAlpha_1:   1.55822038 +/- 0.075632 (4.85%) (init= 1)
+    DuBeta_1:   -0.23207099 +/- 0.020781 (8.95%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9044.42012 +/- 255.1844 (2.82%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:       10.5901858 +/- 2.518688 (23.78%) (init=-5)
+    eplips_1:    2.86752901 +/- 0.288168 (10.05%) (init= 2)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuAlpha_1, DuV_1)          =  0.876 
+    C(DuV_1, eplips_1)           =  0.846 
+    C(DuAlpha_1, eplips_1)       =  0.635 
+    C(DuG_1, eplips_1)           =  0.606 
+    C(DuG_1, DuV_1)              =  0.258 
+    C(DuAlpha_1, DuG_1)          =  0.134 
+Time: 1.784s 
+ Fit time: 1.152s 
+Data initiating time: 0.018s 
+Results displaying time: 0.614s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:06:14
+Input table name: permExample
+Output table name: TfitParElip_2
+Fit result table name: TfitResElip_2
+Fit result graph name: GfitElip_2
+function: ellipsoidPmTm
+Rsquare_1: 1.07375165409
+[[Variables]]
+    DuAlpha_1:   1.40000000 +/- 3.06e-14 (0.00%) (init= 1)
+    DuBeta_1:   -0.10000000 +/- 8.96e-15 (0.00%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9600       +/- 1.54e-10 (0.00%) (init= 5000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -12         +/- 1.61e-12 (0.00%) (init=-5)
+    eplips_1:    0.32187919 +/- 2.07e-13 (0.00%) (init= 2)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuV_1, eplips_1)           =  0.922 
+Time: 1.1s 
+ Fit time: 0.401s 
+Data initiating time: 0.019s 
+Results displaying time: 0.68s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:06:47
+Input table name: permExample
+Output table name: TfitParElip_3
+Fit result table name: TfitResElip_3
+Fit result graph name: GfitElip_3
+function: ellipsoidPmTm
+Rsquare_1: 1.12341767023
+[[Variables]]
+    DuAlpha_1:   1.55822038 +/- 0.075632 (4.85%) (init= 1)
+    DuBeta_1:   -0.23207099 +/- 0.020781 (8.95%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9044.42012 +/- 255.1844 (2.82%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:       10.5901858 +/- 2.518688 (23.78%) (init=-5)
+    eplips_1:    2.86752901 +/- 0.288168 (10.05%) (init= 2)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuAlpha_1, DuV_1)          =  0.876 
+    C(DuV_1, eplips_1)           =  0.846 
+    C(DuAlpha_1, eplips_1)       =  0.635 
+    C(DuG_1, eplips_1)           =  0.606 
+    C(DuG_1, DuV_1)              =  0.258 
+    C(DuAlpha_1, DuG_1)          =  0.134 
+Time: 1.931s 
+ Fit time: 1.138s 
+Data initiating time: 0.019s 
+Results displaying time: 0.774s 
+--------------------------------------------------------------------------------------------------------------------  
+
+StartFit started 
+  
+Date: 2015-03-11 18:09:06
+Input table name: permExample
+Output table name: TfitParElip_1
+Fit result table name: TfitResElip_1
+Fit result graph name: GfitElip_1
+function: ellipsoidPmTm
+Rsquare_1: 1.07375165409
+[[Variables]]
+    DuAlpha_1:   1.40000000 +/- 3.06e-14 (0.00%) (init= 1)
+    DuBeta_1:   -0.10000000 +/- 8.96e-15 (0.00%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9600       +/- 1.54e-10 (0.00%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -12         +/- 1.61e-12 (0.00%) (init=-5)
+    eplips_1:    0.32187919 +/- 2.07e-13 (0.00%) (init= 10)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuV_1, eplips_1)           =  0.922 
+Time: 1.206s 
+ Fit time: 0.536s 
+Data initiating time: 0.019s 
+Results displaying time: 0.651s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:09:25
+Input table name: permExample
+Output table name: TfitParElip_2
+Fit result table name: TfitResElip_2
+Fit result graph name: GfitElip_2
+function: ellipsoidPmTm
+Rsquare_1: 1.07375165409
+[[Variables]]
+    DuAlpha_1:   1.40000000 +/- 3.06e-14 (0.00%) (init= 1)
+    DuBeta_1:   -0.10000000 +/- 8.96e-15 (0.00%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9600       +/- 1.54e-10 (0.00%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -12         +/- 1.61e-12 (0.00%) (init=-5)
+    eplips_1:    0.32187919 +/- 2.07e-13 (0.00%) (init= 10)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuV_1, eplips_1)           =  0.922 
+Time: 1.305s 
+ Fit time: 0.547s 
+Data initiating time: 0.02s 
+Results displaying time: 0.738s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:09:44
+Input table name: permExample
+Output table name: TfitParElip_3
+Fit result table name: TfitResElip_3
+Fit result graph name: GfitElip_3
+function: ellipsoidPmTm
+Rsquare_1: 1.54051901829
+[[Variables]]
+    DuAlpha_1:   3.23684878 +/- 0.217262 (6.71%) (init= 1)
+    DuBeta_1:   -1 (fixed)
+    DuCp_1:      6800 (fixed)
+    DuG_1:       5388.64675 +/- 1.15e+03 (21.33%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:       137.848035 +/- 5.681737 (4.12%) (init=-5)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuAlpha_1, DuG_1)          =  0.653 
+Time: 1.056s 
+ Fit time: 0.259s 
+Data initiating time: 0.018s 
+Results displaying time: 0.779s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:10:09
+Input table name: permExample
+Output table name: TfitParElip_4
+Fit result table name: TfitResElip_4
+Fit result graph name: GfitElip_4
+function: ellipsoidPmTm
+Rsquare_1: 1.48863943983
+[[Variables]]
+    DuAlpha_1:   3 (fixed)
+    DuBeta_1:   -0.65922681 +/- 0.035572 (5.40%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       10635.9416 +/- 474.9357 (4.47%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:       65.8753152 +/- 4.772212 (7.24%) (init=-5)
+    eplips_1:    6.04275964 +/- 0.811721 (13.43%) (init= 10)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuV_1, eplips_1)           =  0.892 
+    C(DuG_1, eplips_1)           =  0.664 
+    C(DuG_1, DuV_1)              =  0.514 
+Time: 1.317s 
+ Fit time: 0.42s 
+Data initiating time: 0.019s 
+Results displaying time: 0.878s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:10:19
+Input table name: permExample
+Output table name: TfitParElip_5
+Fit result table name: TfitResElip_5
+Fit result graph name: GfitElip_5
+function: ellipsoidPmTm
+Rsquare_1: 1.07375165409
+[[Variables]]
+    DuAlpha_1:   1.40000000 +/- 3.06e-14 (0.00%) (init= 3)
+    DuBeta_1:   -0.10000000 +/- 8.96e-15 (0.00%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9600       +/- 1.54e-10 (0.00%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -12         +/- 1.61e-12 (0.00%) (init=-5)
+    eplips_1:    0.32187919 +/- 2.07e-13 (0.00%) (init= 10)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuV_1, eplips_1)           =  0.922 
+Time: 1.286s 
+ Fit time: 0.398s 
+Data initiating time: 0.018s 
+Results displaying time: 0.87s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:10:23
+Input table name: permExample
+Output table name: TfitParElip_6
+Fit result table name: TfitResElip_6
+Fit result graph name: GfitElip_6
+function: ellipsoidPmTm
+Rsquare_1: 1.07375165409
+[[Variables]]
+    DuAlpha_1:   1.40000000 +/- 3.06e-14 (0.00%) (init= 3)
+    DuBeta_1:   -0.10000000 +/- 8.96e-15 (0.00%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9600       +/- 1.54e-10 (0.00%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -12         +/- 1.61e-12 (0.00%) (init=-5)
+    eplips_1:    0.32187919 +/- 2.07e-13 (0.00%) (init= 10)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuV_1, eplips_1)           =  0.922 
+Time: 1.283s 
+ Fit time: 0.381s 
+Data initiating time: 0.023s 
+Results displaying time: 0.879s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:10:43
+Input table name: permExample
+Output table name: TfitParElip_7
+Fit result table name: TfitResElip_7
+Fit result graph name: GfitElip_7
+function: ellipsoidPmTm
+Rsquare_1: 28.7781590644
+[[Variables]]
+    DuAlpha_1:   3.00214752 +/- 6.618943 (220.47%) (init= 3)
+    DuBeta_1:   -0.83218287 +/- 1.931181 (232.06%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       1075.48720 +/- 3.10e+03 (288.41%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -19.9748877 +/- 160.9406 (805.71%) (init=-20)
+    eplips_1:    9.97651815 +/- 14.22353 (142.57%) (init= 10)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuAlpha_1, DuV_1)          =  0.961 
+    C(DuG_1, eplips_1)           =  0.175 
+    C(DuAlpha_1, eplips_1)       =  0.142 
+Time: 1.803s 
+ Fit time: 0.888s 
+Data initiating time: 0.026s 
+Results displaying time: 0.889s 
+--------------------------------------------------------------------------------------------------------------------  
+
+StartFit started 
+  
+Date: 2015-03-11 18:11:22
+Input table name: permExample
+Output table name: TfitParElip_1
+Fit result table name: TfitResElip_1
+Fit result graph name: GfitElip_1
+function: ellipsoidPmTm
+Rsquare_1: 1.17618264553
+[[Variables]]
+    DuAlpha_1:   1.71409860 +/- 0.103772 (6.05%) (init= 3)
+    DuBeta_1:   -0.27083626 +/- 0.030018 (11.08%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9425.43334 +/- 294.4672 (3.12%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:       14.1765794 +/- 3.684290 (25.99%) (init=-20)
+    eplips_1:    3.24202244 +/- 0.384335 (11.85%) (init= 100)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuAlpha_1, DuV_1)          =  0.913 
+    C(DuV_1, eplips_1)           =  0.882 
+    C(DuAlpha_1, eplips_1)       =  0.713 
+    C(DuG_1, eplips_1)           =  0.666 
+    C(DuG_1, DuV_1)              =  0.405 
+    C(DuAlpha_1, DuG_1)          =  0.303 
+Time: 2.419s 
+ Fit time: 1.652s 
+Data initiating time: 0.019s 
+Results displaying time: 0.748s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:11:41
+Input table name: permExample
+Output table name: TfitParElip_2
+Fit result table name: TfitResElip_2
+Fit result graph name: GfitElip_2
+function: ellipsoidPmTm
+Rsquare_1: 1.23713867799
+[[Variables]]
+    DuAlpha_1:   0.84837518 +/- 0        (0.00%) (init= 3)
+    DuBeta_1:   -0.09593304 +/- 0        (-0.00%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       5344.31257 +/- 0        (0.00%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:       0          +/- 0         (init= 0)
+    eplips_1:    1.46933579 +/- 0        (0.00%) (init= 100)
+[[Correlations]] (unreported correlations are <  0.100)
+Time: 1.585s 
+ Fit time: 0.732s 
+Data initiating time: 0.019s 
+Results displaying time: 0.834s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:12:06
+Input table name: permExample
+Output table name: TfitParElip_3
+Fit result table name: TfitResElip_3
+Fit result graph name: GfitElip_3
+function: ellipsoidPmTm
+Rsquare_1: 1.23713867799
+[[Variables]]
+    DuAlpha_1:   0.84837518 +/- 0        (0.00%) (init= 3)
+    DuBeta_1:   -0.09593304 +/- 0        (-0.00%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       5344.31257 +/- 0        (0.00%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:       0          +/- 0         (init= 0)
+    eplips_1:    1.46933579 +/- 0        (0.00%) (init= 100)
+[[Correlations]] (unreported correlations are <  0.100)
+Time: 1.693s 
+ Fit time: 0.757s 
+Data initiating time: 0.027s 
+Results displaying time: 0.909s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:12:23
+Input table name: permExample
+Output table name: TfitParElip_4
+Fit result table name: TfitResElip_4
+Fit result graph name: GfitElip_4
+function: ellipsoidPmTm
+Rsquare_1: 1.00946663377
+[[Variables]]
+    DuAlpha_1:   1.56496465 +/- 0.026813 (1.71%) (init= 3)
+    DuBeta_1:   -0.18012012 +/- 0.004087 (2.27%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9567.39735 +/- 148.7840 (1.56%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:       1.6734e-07 +/- 0.309902 (185197868.20%) (init= 5)
+    eplips_1:    1.66100921 +/- 0.082889 (4.99%) (init= 100)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuG_1, eplips_1)           =  0.701 
+    C(DuAlpha_1, DuV_1)          =  0.205 
+Time: 2.694s 
+ Fit time: 1.544s 
+Data initiating time: 0.026s 
+Results displaying time: 1.124s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:12:44
+Input table name: permExample
+Output table name: TfitParElip_5
+Fit result table name: TfitResElip_5
+Fit result graph name: GfitElip_5
+function: ellipsoidPmTm
+Rsquare_1: 1.23713867799
+[[Variables]]
+    DuAlpha_1:   0.84837518 +/- 0        (0.00%) (init= 3)
+    DuBeta_1:   -0.09593304 +/- 0        (-0.00%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       5344.31257 +/- 0        (0.00%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:       0          +/- 0         (init= 0)
+    eplips_1:    1.46933579 +/- 0        (0.00%) (init= 100)
+[[Correlations]] (unreported correlations are <  0.100)
+Time: 1.706s 
+ Fit time: 0.74s 
+Data initiating time: 0.017s 
+Results displaying time: 0.949s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:12:53
+Input table name: permExample
+Output table name: TfitParElip_6
+Fit result table name: TfitResElip_6
+Fit result graph name: GfitElip_6
+function: ellipsoidPmTm
+Rsquare_1: 493.407339415
+[[Variables]]
+    DuAlpha_1:   2.68636066 +/- 20.75677 (772.67%) (init= 3)
+    DuBeta_1:   -4.04680687 +/- 39.72045 (981.53%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       1099.03090 +/- 4.18e+03 (380.53%) (init= 1000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -0.00054969 +/- 495.8784 (90209513.90%) (init=-1)
+    eplips_1:    85.1267105 +/- 882.8638 (1037.12%) (init= 100)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuV_1, eplips_1)           =  0.770 
+    C(DuAlpha_1, DuV_1)          =  0.626 
+    C(DuG_1, eplips_1)           =  0.462 
+    C(DuAlpha_1, eplips_1)       =  0.150 
+Time: 1.831s 
+ Fit time: 0.847s 
+Data initiating time: 0.018s 
+Results displaying time: 0.966s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:13:05
+Input table name: permExample
+Output table name: TfitParElip_1
+Fit result table name: TfitResElip_1
+Fit result graph name: GfitElip_1
+function: ellipsoidPmTm
+Rsquare_1: 1.07375165409
+[[Variables]]
+    DuAlpha_1:   1.40000000 +/- 3.06e-14 (0.00%) (init= 3)
+    DuBeta_1:   -0.10000000 +/- 8.96e-15 (0.00%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9600       +/- 1.54e-10 (0.00%) (init= 9000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -12         +/- 1.61e-12 (0.00%) (init=-1)
+    eplips_1:    0.32187919 +/- 2.07e-13 (0.00%) (init= 100)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuV_1, eplips_1)           =  0.922 
+Time: 1.317s 
+ Fit time: 0.52s 
+Data initiating time: 0.018s 
+Results displaying time: 0.779s 
+--------------------------------------------------------------------------------------------------------------------  
+Fit started 
+  
+Date: 2015-03-11 18:13:40
+Input table name: permExample
+Output table name: TfitParElip_2
+Fit result table name: TfitResElip_2
+Fit result graph name: GfitElip_2
+function: ellipsoidPmTm
+Rsquare_1: 1.07375165409
+[[Variables]]
+    DuAlpha_1:   1.40000000 +/- 3.06e-14 (0.00%) (init= 0.7)
+    DuBeta_1:   -0.10000000 +/- 8.95e-15 (0.00%)  == '-(eplips_1  + DuAlpha_1 **2)*298.0/DuCp_1'
+    DuCp_1:      6800 (fixed)
+    DuG_1:       9600       +/- 1.54e-10 (0.00%) (init= 9000)
+    DuH_1:       70500 (fixed)
+    DuV_1:      -12         +/- 1.61e-12 (0.00%) (init=-1)
+    eplips_1:    0.32187919 +/- 2.07e-13 (0.00%) (init= 100)
+[[Correlations]] (unreported correlations are <  0.100)
+    C(DuV_1, eplips_1)           =  0.922 
+Time: 1.272s 
+ Fit time: 0.358s 
+Data initiating time: 0.018s 
+Results displaying time: 0.896s 
+--------------------------------------------------------------------------------------------------------------------  
+</log>
